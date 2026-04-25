@@ -1,0 +1,21 @@
+name: pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  fist build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print echo
+        run: echo "Hello from my pipline"
+
+      - name: display date
+        run: dateI
+
+
+
+
+
