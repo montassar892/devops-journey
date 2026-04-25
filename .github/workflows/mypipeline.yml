@@ -6,14 +6,47 @@ on:
       - main
 
 jobs:
-  fist build:
+  first-build:
     runs-on: ubuntu-latest
+
     steps:
       - name: print echo
-        run: echo "Hello from my pipline"
+        run: echo "Hello from my pipeline"
 
       - name: display date
-        run: dateI
+        run: date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
